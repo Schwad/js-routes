@@ -1,7 +1,7 @@
 require 'sprockets/version'
 
 class JsRoutes
-  SPROCKETS3 = Gem::Version.new(Sprockets::VERSION) >= Gem::Version.new('4.0.0')
+  SPROCKETS3 = Gem::Version.new(Sprockets::VERSION) >= Gem::Version.new('3.0.0')
   class Engine < ::Rails::Engine
 
     if SPROCKETS3
